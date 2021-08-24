@@ -10,7 +10,6 @@ You can then run this by writing `node index` followed by the set of letters you
 
 - sorted the list from longest to shortest before running
 - stored list of words in json to reduce import line count
-- used 
 
 
 
