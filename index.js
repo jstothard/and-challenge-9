@@ -1,3 +1,4 @@
+console.time("time");
 const list = require('./list.json')
 const getLongestWord = (letters) => {
     for (let i = 0, len = list.length; i < len; i++) {
@@ -6,3 +7,4 @@ const getLongestWord = (letters) => {
 }
 const letters = process.argv[2]||""
 console.log(getLongestWord(letters))
+console.timeEnd("time");
