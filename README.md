@@ -6,6 +6,12 @@ Clone the repo and install with `npm i`.
 
 You can then run this by writing `node index` followed by the set of letters you wish to check. i.e. `node index hewsda` will return the longest word that can be created from that string, `deadheaded`.
 
+## Optimisations
+
+- sorted the list from longest to shortest before running
+- stored list of words in json to reduce import line count
+- used 
+
 
 
 ## The Challenge
