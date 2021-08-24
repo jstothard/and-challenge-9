@@ -1,5 +1,6 @@
 {
-  "name": "challenge-9",
+  "name": "get-longest-word",
+  "bin": "./index.js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

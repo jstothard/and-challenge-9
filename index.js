@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const list = require('./list.json')
 
 const getLongestWord = (letters) => {
@@ -8,3 +9,7 @@ const getLongestWord = (letters) => {
     }
     return ""
 }
+
+const letters = process.argv[2]
+
+console.log(getLongestWord(letters))
